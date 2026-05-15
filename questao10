@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    inteiro resultado = 0 , numero , maior = 0 
+		
+		enquanto(resultado < 5){ 
+			escreva(" \n digite um numero: ") 
+			leia(numero) 
+			
+			// Se for o primeiro número ou se o número digitado for maior que o guardado
+			se (resultado == 0 ou numero > maior) {
+				maior = numero
+			}
+			
+			resultado = resultado + 1 
+		} 
+		
+		escreva(" \n seu maior valor e " , maior)
+	} 
+  }
+
